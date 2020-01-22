@@ -1,60 +1,21 @@
+
 <html>
 <head>
-	<script type="text/javascript">
-	
-	name = prompt("Как вас зовут?");
-	testZ();
-	
-	function testZ(){
-		
-		q1 = function (){
-			var res=0;
-			if(confirm("Оборудовали ли вы убежище на случай нашествия зомби?")==true){
-				res+=confirm("Cозданы в убежище запасы еды?");
-				res+=confirm("Cозданы в убежище запасы воды?");
-				res+=confirm("Достаточно ли налажена система вентиляции?");
-			};
-			if(res>=2) return 2;
-			return 0;
-		}
-		q2 = function (){
-			var res=0;
-			if(confirm("Есть ли у вас оружие?")==true){
-				res+=confirm("Умеете ли вы им владеть?");
-				res+=confirm("В наличии ли ремонтный комплект?");
-			};
-			if(res>=1&&confirm("Имеются ли запасы боеприпасов?")) return 2;
-			return 0;
-		}
-		q3 = function (){
-			var phys = prompt("В какой физической форме вы находитесь?");
-			if(phys=="отличная") return 2;
-			if(phys=="хорошая"||phys=="удовлетворительная") return 1;
-			return 0;
-		}
-		q4 = function (){
-			var res=0;
-			res+=confirm("Пожертвуете ли близкими если: их схватили зомби и начали ими завтракать?");
-			res+=confirm("Пожертвуете ли близкими если: еды осталось мало и делиться не хочется?");
-			res+=confirm("Пожертвуете ли близкими если: они собираются совершить самоубийство от отчаяния?");
-			return res;
-		}
-		
-		if(q1()+q2()+q3()+q4()>=6) 
-			alert("Поздравляем, вас, "+name+", вы выживите в результате зомби апокалипсиса!");
-		else {
-			alert(name+", вы не сможете выжить в результате зомби апокалипсиса!");
-			testZ();
-		}
-		return 0;
-	}
-	
-	
-	
-	</script>
+
 </head>
 
-<body>
+<body style="background: #ff0000">
+<p>Вилочка ^-^</p>
+	<p>Ghbdtn</p>
+	<p>Привет</p>
+	<p>hello</p>
+	<p>Hi!</p>
+	
+	
+	<p><3</p>
+
 </body>
+
+</html>
 
 </html>
